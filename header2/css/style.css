@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+/* navigation start from here ===================== */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-image: linear-gradient(rgba(4,9,30,0.9),rgba(4,9,30,0.9)),url(../images/banner.webp);
+    background-repeat: no-repeat;
+    background-size: center;
+    background-position: center center;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+.nav-link{
+    color: white !important;
+    text-transform: uppercase;
+    margin-left: 30px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+.banner{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.banner .inner-banner{
+    padding: 100px 0;
+}
+.banner .inner-banner h1{
+    color: white;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.banner .inner-banner p{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    margin: 20px 0;
+    
+}
+.banner .inner-banner .main-btn{
+    background-color: #F53F51;
+    padding: 12px 30px;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    transition: 0.3s;
+    border: 1px solid #F53F51;
+}
+.banner .inner-banner .main-btn:hover{
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+/* navigation end here ===================== */

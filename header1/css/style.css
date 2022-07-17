@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap');
+/* navigation start from here ========================= */
+body{
+    font-family: Rajdhani, sans-serif;
+}
+header{
+    padding: 15px 0;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);    
+}
+
+.nav-item{
+    margin-left: 30px;
+}
+.nav-link{
+    color: #111127 !important;
+    text-transform: uppercase !important;
+    font-family: Rajdhani, sans-serif;
+    font-weight: 600;
+}
+
+.main-btn{
+
+    color: white;
+    display: inline-block;
+    background-color: #BFB332;
+    margin-left: 40px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    width: 180px;
+
+}
+/* navigation end here ========================= */
+
+
+/* banner section design ======================== */
+.banner{
+    background-image: url(../images/hero-1.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.banner .inner-banner-text{
+    text-align: center;
+}
+.banner .inner-banner-text h1{
+    color: white;
+    font-size: 75px;
+    line-height: 80px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.banner-btn{
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+/* banner section design end======================== */
